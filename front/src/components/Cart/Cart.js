@@ -8,7 +8,7 @@ import {
 import { makeStyles, Button } from "@material-ui/core";
 import { Link, useHistory } from 'react-router-dom';
 import { Redirect } from "react-router";
-import { Button } from "@material-ui/core";
+//import { Button } from "@material-ui/core";
 import { AiFillShopping } from 'react-icons/ai';
 import { FcShipped } from 'react-icons/fc';
 import Dialog from '@material-ui/core/Dialog';
@@ -26,13 +26,13 @@ export default function Cart() {
   const total = useSelector((state) => state.cart.total);
   const products = useSelector((store) => store.cart.items);
 
-  useEffect(() => {
+//   useEffect(() => {
 
-const update = () => {
+// const update = () => {
  
-  dispatch(updateTotal())
-} }
-  ,[]) 
+//   dispatch(updateTotal())
+// } }
+//   ,[]) 
 
 const redirect = () => {
  return <Redirect to="/direccionDeEnvio" />

@@ -4,7 +4,7 @@ const productRoutes = require("./productRoutes");
 const categoryRoutes = require("./categoryRoutes");
 const orderRoutes = require("./orderRoutes");
 const userRoutes = require("./usersRoutes");
-const mercadoRoutes = require("./mercadopago");
+const mercadoRoutes = require("./mercadoRoutes");
 const locationRoutes = require("./locationRoutes");
 const reviewRoutes = require("./reviewRoutes");
 
